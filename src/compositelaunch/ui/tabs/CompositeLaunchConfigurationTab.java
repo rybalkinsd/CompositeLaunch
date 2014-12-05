@@ -25,7 +25,7 @@ import org.eclipse.ui.dialogs.ContainerCheckedTreeViewer;
 import compositelaunch.core.CompositeLaunchUtils;
 
 /**
- * Tab with ckeckboxTree of all (allowed) slave configs to be.
+ * Tab with checkboxTree of all (allowed) slave configs to be.
  *
  */
 public class CompositeLaunchConfigurationTab extends AbstractLaunchConfigurationTab {	
