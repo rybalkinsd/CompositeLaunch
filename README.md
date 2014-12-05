@@ -10,5 +10,5 @@ slaves to a special instance of Composite launch configuration.
 Plugin provides choosing number of executions for each slave
 of master Composite launch configuration.
  
-
+This plugin code level is Java 8
 
