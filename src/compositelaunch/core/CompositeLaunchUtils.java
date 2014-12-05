@@ -67,8 +67,6 @@ public class CompositeLaunchUtils {
 			
 			storedSlaveNames.addAll(masterConfig.getAttribute(SLAVE_ATTR, Collections.emptySet()));
 		} catch (CoreException e) {
-			// remove stackTrace
-			e.printStackTrace();
 			return Collections.emptyList();
 		}
 		
@@ -95,8 +93,6 @@ public class CompositeLaunchUtils {
 					Collections.emptyMap()));
 			
 		} catch (CoreException e) {
-			// remove stackTrace
-			e.printStackTrace();
 			return Collections.emptyMap();
 		}
 		
