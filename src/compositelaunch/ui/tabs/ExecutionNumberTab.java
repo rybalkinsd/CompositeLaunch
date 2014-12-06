@@ -129,7 +129,7 @@ public class ExecutionNumberTab extends AbstractLaunchConfigurationTab {
 
   		launchConfigurationsTable = new TableViewer(tableComposite, 68354);
 
-	    Table table = this.launchConfigurationsTable.getTable();
+	    Table table = launchConfigurationsTable.getTable();
 	    table.setLayout(new GridLayout());
 	    table.setLayoutData(new GridData(1808));
 	    table.setHeaderVisible(true);
@@ -284,8 +284,7 @@ public class ExecutionNumberTab extends AbstractLaunchConfigurationTab {
   	}
 
   	
-  	private static class LaunchNumberLabelProvider extends LabelProvider 
-  												   implements ITableLabelProvider {
+  	private static class LaunchNumberLabelProvider extends LabelProvider implements ITableLabelProvider {
   		
   		@Override
   		public String getColumnText(Object element, int columnIndex) {
